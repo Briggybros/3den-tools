@@ -48,6 +48,10 @@ class CfgVehicles {
 						name  = "OPFOR";
 						value = 0;
 					};
+					class Civ {
+						name  = "Civilian";
+						value = 3;
+					};
 				};
 			};
 

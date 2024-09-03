@@ -54,6 +54,10 @@ params [
 
 	{
 		_x setVariable ['access_side', _side];
+		_x setVariable ['weapons', _finalWeapons];
+		_x setVariable ['magazines', _finalMagazines];
+		_x setVariable ['items', _finalItems];
+		_x setVariable ['backpacks', _finalBackpacks];
 		[_x, _finalWeapons,   false, false] call BIS_fnc_addVirtualWeaponCargo;
 		[_x, _finalMagazines, false, false] call BIS_fnc_addVirtualMagazineCargo; 
 		[_x, _finalItems,     false, false] call BIS_fnc_addVirtualItemCargo;

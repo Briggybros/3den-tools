@@ -5,7 +5,7 @@ class CfgPatches {
 	class ADDON {
 		name = CSTRING(component);
 		author = "117Briggy";
-		url = "https://github.com/Briggybros/3den-tools";
+		url = "https://github.com/Briggybros/edentools";
 		requiredVersion = 1.82; 
 		requiredAddons[] = {};
 		units[] = {};

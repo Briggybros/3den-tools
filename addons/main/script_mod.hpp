@@ -1,5 +1,5 @@
 #define MAINPREFIX Briggybros
-#define PREFIX 3dentools
+#define PREFIX edentools
 
 #include "script_version.hpp"
 

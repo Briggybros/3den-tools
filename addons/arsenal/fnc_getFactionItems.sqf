@@ -33,19 +33,19 @@ switch (_side) do {
 		_weapons = _weapons + ["Laserdesignator_02"];
 		_mags = _mags + ["O_IR_Grenade"];
 		_items = _items + ["G_O_Diving","O_UavTerminal","V_RebreatherIR","U_O_Wetsuit"];
-		_packs = _packs + ["B_O_Parachute_02_F","O_AA_01_weapon_F","O_AT_01_weapon_F","O_Assault_Diver","O_GMG_01_A_weapon_F","O_GMG_01_high_weapon_F","O_GMG_01_weapon_F","O_HMG_01_A_weapon_F","O_HMG_01_high_weapon_F","O_HMG_01_support_F","O_HMG_01_support_high_F","O_HMG_01_weapon_F","O_Mortar_01_support_F","O_Mortar_01_weapon_F","O_Static_Designator_02_weapon_F","O_UAV_01_backpack_F"];
+		_packs = _packs + ["B_O_Parachute_02_F"];
 	};
 	case WEST: {
 		_weapons = _weapons + ["Laserdesignator"];
 		_mags = _mags + ["B_IR_Grenade"];
 		_items = _items + ["G_B_Diving", "B_UavTerminal", "V_RebreatherB", "U_B_Wetsuit"];
-		_packs = _packs + ["B_AA_01_weapon_F","B_AT_01_weapon_F","B_Mortar_01_support_F","B_Mortar_01_weapon_F","B_B_Parachute_02_F","B_GMG_01_A_weapon_F","B_GMG_01_high_weapon_F","B_GMG_01_weapon_F","B_HMG_01_A_weapon_F","B_HMG_01_high_weapon_F","B_HMG_01_support_F","B_HMG_01_support_high_F","B_HMG_01_weapon_F","B_Static_Designator_01_weapon_F","B_UAV_01_backpack_F"];
+		_packs = _packs + ["B_B_Parachute_02_F"];
 	};
 	case INDEPENDENT: {
 		_weapons = _weapons + ["Laserdesignator_03"];
 		_mags = _mags + ["I_IR_Grenade"];
 		_items = _items + ["G_I_Diving","I_UavTerminal","V_RebreatherIA","U_I_Wetsuit"];
-		_packs = _packs + ["B_I_Parachute_02_F","I_AA_01_weapon_F","I_AT_01_weapon_F","I_Assault_Diver","I_Carryall_oli_AAA","I_Carryall_oli_AAT","I_Carryall_oli_Eng","I_Carryall_oli_Exp","I_Fieldpack_oli_AA","I_Fieldpack_oli_AAR","I_Fieldpack_oli_AT","I_Fieldpack_oli_Ammo","I_Fieldpack_oli_LAT","I_Fieldpack_oli_Medic","I_Fieldpack_oli_Repair","I_GMG_01_A_weapon_F","I_GMG_01_high_weapon_F","I_GMG_01_weapon_F","I_HMG_01_A_weapon_F","I_HMG_01_high_weapon_F","I_HMG_01_support_F","I_HMG_01_support_high_F","I_HMG_01_weapon_F","I_Mortar_01_support_F","I_Mortar_01_weapon_F","I_UAV_01_backpack_F"];
+		_packs = _packs + ["B_I_Parachute_02_F"];
 	};
 };
 

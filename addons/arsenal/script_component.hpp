@@ -1,5 +1,5 @@
 #define COMPONENT arsenal
-#include "\Briggybros\snd\addons\main\script_mod.hpp"
+#include "\Briggybros\edentools\addons\main\script_mod.hpp"
 
 #ifdef DEBUG_ENABLED_MAIN
 	#define DEBUG_MODE_FULL

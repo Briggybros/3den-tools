@@ -1,4 +1,9 @@
 name = "3DEN Tools"
 author = "117Briggy"
-prefix = "3dentools"
-mainprefix = "117briggy"
+prefix = "edentools"
+mainprefix = "Briggybros"
+
+[hemtt.launch.default]
+workshop = [
+    "450814997", # CBA_A3
+]
