@@ -6,6 +6,7 @@ class CfgFunctions {
 			PATHTO_FNC(getFactionItems);
 			PATHTO_FNC(getKATItems);
 			PATHTO_FNC(getTFARItems);
+			PATHTO_FNC(getALIVEItems);
 		};
 	};
 };

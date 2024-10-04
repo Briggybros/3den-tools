@@ -42,6 +42,14 @@ params [
 		_backpacks = _n_backpacks;
 	};
 
+	if (!isnull (configFile >> "CfgPatches" >> "ALiVE_c_tablet")) then {
+		([_side, _faction, _weapons, _magazines, _items, _backpacks] call FUNCMAIN(getALIVEItems)) params ["_n_weapons", "_n_magazines", "_n_items", "_n_backpacks"];
+		_weapons = _n_weapons;
+		_magazines = _n_magazines;
+		_items = _n_items;
+		_backpacks = _n_backpacks;
+	};
+
 	// Dedupe lists
 	_finalWeapons = [];
 	{_finalWeapons pushBackUnique _x} forEach _weapons;
